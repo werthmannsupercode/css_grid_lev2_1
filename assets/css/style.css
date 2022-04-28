@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 5px;
+}
+
+section div {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+section div article {
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 200px;
+    height: 0px;
+    position: absolute;
+    transition: height 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+
+section div article p {
+    color: white;
+}
+
+.box1 {
+    background-image: url('https://picsum.photos/200?random=1');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box2 {
+    background-image: url('https://picsum.photos/200?random=2');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box3 {
+    background-image: url('https://picsum.photos/200?random=3');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box4 {
+    background-image: url('https://picsum.photos/200?random=4');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box5 {
+    background-image: url('https://picsum.photos/200?random=5');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box6 {
+    background-image: url('https://picsum.photos/200?random=6');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box7 {
+    background-image: url('https://picsum.photos/200?random=7');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box8 {
+    background-image: url('https://picsum.photos/200?random=8');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box9 {
+    background-image: url('https://picsum.photos/200?random=9');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
